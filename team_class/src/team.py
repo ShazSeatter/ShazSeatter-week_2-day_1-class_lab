@@ -11,6 +11,14 @@ class Team:
     def has_player(self, player_name):
         return player_name in self.players
 
-    def play_game(self, won_game):
-        if won_game:
+        # for player in self.players:
+        #     if player == player_name:
+        #         return True
+        # return False
+
+#  SOMETHING TO REMEMBER
+        # return self.players.count(player) > 0
+
+    def play_game(self, has_won):
+        if has_won:
             self.points += 3
