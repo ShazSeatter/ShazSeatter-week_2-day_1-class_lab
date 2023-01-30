@@ -7,4 +7,6 @@ class Student:
         return "I can talk!"
 
     def say_favourite_language(self, language):
-        return "I love " + language
+        # return "I love " + language
+        return f"I love {language}"
+
