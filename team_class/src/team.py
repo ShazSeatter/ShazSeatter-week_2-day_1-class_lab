@@ -22,3 +22,5 @@ class Team:
     def play_game(self, has_won):
         if has_won:
             self.points += 3
+
+            
